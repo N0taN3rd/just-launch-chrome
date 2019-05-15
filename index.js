@@ -1,12 +1,13 @@
+'use strict'
 const {
   findChrome,
   findChromeDarwin,
   findChromeLinux,
   findChromeWindows,
   findChromeWSL,
-} = require('./finder')
+} = require('./lib/finder')
 
-const launch = require('./launcher')
+const launch = require('./lib/launcher')
 
 module.exports = {
   launch,
