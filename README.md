@@ -1,4 +1,4 @@
-Launch Chrome
+Just Launch Chrome
 =======================
 [![node requirement](https://img.shields.io/badge/node-%3E%3D%208.6.0-brightgreen.svg?style=flat-square)](https://nodejs.org)
 [![sanic](https://img.shields.io/badge/speed-blazing%20%F0%9F%94%A5-brightgreen.svg?style=flat-square)](https://twitter.com/acdlite/status/974390255393505280)
@@ -12,13 +12,13 @@ Why cause sometimes you just want something to launch chrome with the remote deb
 To use launch-chrome in your project, run:
 
 ```bash
-yarn add launch-chrome
-# or "npm i launch-chrome"
+yarn add just-launch-chrome
+# or "npm i just-launch-chrome"
 ```
 
 ### Usage
 
-launch-chrome provides two basic operations finding Chrome/Chromium executables and launching Chrome/Chromium on supported platforms.
+just-launch-chrome provides two basic operations finding Chrome/Chromium executables and launching Chrome/Chromium on supported platforms.
 
 The supported platforms are
  - Linux
@@ -30,7 +30,7 @@ The supported platforms are
 #### Finding Chrome
 
 
- The simplest way to use launch-chrome as a means to find Chrome/Chromium executables is shown below
+ The simplest way to use just-launch-chrome as a means to find Chrome/Chromium executables is shown below
 
  ```js
 const { findChrome } = require('just-launch-chrome')
