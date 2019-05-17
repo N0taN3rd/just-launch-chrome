@@ -33,7 +33,7 @@ The supported platforms are
  The simplest way to use launch-chrome as a means to find Chrome/Chromium executables is shown below
 
  ```js
-const { findChrome } = require('launch-chrome')
+const { findChrome } = require('just-launch-chrome')
 
 ;(async () => {
   const executables = await findChrome()
@@ -56,7 +56,7 @@ launch-chrome also makes available each of the supported platforms finding funct
 Launching chrome is done via the `launch` function as shown below
 
 ```js
-const { launch } = require('launch-chrome')
+const { launch } = require('just-launch-chrome')
 
 ;(async () => {
   const { chromeProcess, closeBrowser, browserWSEndpoint } = await launch()
